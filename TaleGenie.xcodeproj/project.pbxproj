@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		11EB671B2D08AA6A00AB76FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11EB67022D08AA6800AB76FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11EB67092D08AA6800AB76FB;
+			remoteInfo = TaleGenie;
+		};
+		11EB67252D08AA6A00AB76FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11EB67022D08AA6800AB76FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11EB67092D08AA6800AB76FB;
+			remoteInfo = TaleGenie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11EB670A2D08AA6800AB76FB /* TaleGenie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaleGenie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EB671A2D08AA6A00AB76FB /* TaleGenieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaleGenieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EB67242D08AA6A00AB76FB /* TaleGenieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaleGenieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		11EB670C2D08AA6800AB76FB /* TaleGenie */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaleGenie;
+			sourceTree = "<group>";
+		};
+		11EB671D2D08AA6A00AB76FB /* TaleGenieTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaleGenieTests;
+			sourceTree = "<group>";
+		};
+		11EB67272D08AA6A00AB76FB /* TaleGenieUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaleGenieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11EB67072D08AA6800AB76FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB67172D08AA6A00AB76FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB67212D08AA6A00AB76FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11EB67012D08AA6800AB76FB = {
+			isa = PBXGroup;
+			children = (
+				11EB670C2D08AA6800AB76FB /* TaleGenie */,
+				11EB671D2D08AA6A00AB76FB /* TaleGenieTests */,
+				11EB67272D08AA6A00AB76FB /* TaleGenieUITests */,
+				11EB670B2D08AA6800AB76FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11EB670B2D08AA6800AB76FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11EB670A2D08AA6800AB76FB /* TaleGenie.app */,
+				11EB671A2D08AA6A00AB76FB /* TaleGenieTests.xctest */,
+				11EB67242D08AA6A00AB76FB /* TaleGenieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11EB67092D08AA6800AB76FB /* TaleGenie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EB672E2D08AA6A00AB76FB /* Build configuration list for PBXNativeTarget "TaleGenie" */;
+			buildPhases = (
+				11EB67062D08AA6800AB76FB /* Sources */,
+				11EB67072D08AA6800AB76FB /* Frameworks */,
+				11EB67082D08AA6800AB76FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				11EB670C2D08AA6800AB76FB /* TaleGenie */,
+			);
+			name = TaleGenie;
+			packageProductDependencies = (
+			);
+			productName = TaleGenie;
+			productReference = 11EB670A2D08AA6800AB76FB /* TaleGenie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11EB67192D08AA6A00AB76FB /* TaleGenieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EB67312D08AA6A00AB76FB /* Build configuration list for PBXNativeTarget "TaleGenieTests" */;
+			buildPhases = (
+				11EB67162D08AA6A00AB76FB /* Sources */,
+				11EB67172D08AA6A00AB76FB /* Frameworks */,
+				11EB67182D08AA6A00AB76FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EB671C2D08AA6A00AB76FB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				11EB671D2D08AA6A00AB76FB /* TaleGenieTests */,
+			);
+			name = TaleGenieTests;
+			packageProductDependencies = (
+			);
+			productName = TaleGenieTests;
+			productReference = 11EB671A2D08AA6A00AB76FB /* TaleGenieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11EB67232D08AA6A00AB76FB /* TaleGenieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EB67342D08AA6A00AB76FB /* Build configuration list for PBXNativeTarget "TaleGenieUITests" */;
+			buildPhases = (
+				11EB67202D08AA6A00AB76FB /* Sources */,
+				11EB67212D08AA6A00AB76FB /* Frameworks */,
+				11EB67222D08AA6A00AB76FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EB67262D08AA6A00AB76FB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				11EB67272D08AA6A00AB76FB /* TaleGenieUITests */,
+			);
+			name = TaleGenieUITests;
+			packageProductDependencies = (
+			);
+			productName = TaleGenieUITests;
+			productReference = 11EB67242D08AA6A00AB76FB /* TaleGenieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11EB67022D08AA6800AB76FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					11EB67092D08AA6800AB76FB = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					11EB67192D08AA6A00AB76FB = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 11EB67092D08AA6800AB76FB;
+					};
+					11EB67232D08AA6A00AB76FB = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 11EB67092D08AA6800AB76FB;
+					};
+				};
+			};
+			buildConfigurationList = 11EB67052D08AA6800AB76FB /* Build configuration list for PBXProject "TaleGenie" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11EB67012D08AA6800AB76FB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 11EB670B2D08AA6800AB76FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11EB67092D08AA6800AB76FB /* TaleGenie */,
+				11EB67192D08AA6A00AB76FB /* TaleGenieTests */,
+				11EB67232D08AA6A00AB76FB /* TaleGenieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11EB67082D08AA6800AB76FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB67182D08AA6A00AB76FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB67222D08AA6A00AB76FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11EB67062D08AA6800AB76FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB67162D08AA6A00AB76FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB67202D08AA6A00AB76FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11EB671C2D08AA6A00AB76FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11EB67092D08AA6800AB76FB /* TaleGenie */;
+			targetProxy = 11EB671B2D08AA6A00AB76FB /* PBXContainerItemProxy */;
+		};
+		11EB67262D08AA6A00AB76FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11EB67092D08AA6800AB76FB /* TaleGenie */;
+			targetProxy = 11EB67252D08AA6A00AB76FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11EB672C2D08AA6A00AB76FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11EB672D2D08AA6A00AB76FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11EB672F2D08AA6A00AB76FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TaleGenie/Preview Content\"";
+				DEVELOPMENT_TEAM = LF2Y46M79C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janmolski.TaleGenie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11EB67302D08AA6A00AB76FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TaleGenie/Preview Content\"";
+				DEVELOPMENT_TEAM = LF2Y46M79C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janmolski.TaleGenie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11EB67322D08AA6A00AB76FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF2Y46M79C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janmolski.TaleGenieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaleGenie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaleGenie";
+			};
+			name = Debug;
+		};
+		11EB67332D08AA6A00AB76FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF2Y46M79C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janmolski.TaleGenieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaleGenie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaleGenie";
+			};
+			name = Release;
+		};
+		11EB67352D08AA6A00AB76FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF2Y46M79C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janmolski.TaleGenieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaleGenie;
+			};
+			name = Debug;
+		};
+		11EB67362D08AA6A00AB76FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF2Y46M79C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janmolski.TaleGenieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaleGenie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11EB67052D08AA6800AB76FB /* Build configuration list for PBXProject "TaleGenie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EB672C2D08AA6A00AB76FB /* Debug */,
+				11EB672D2D08AA6A00AB76FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EB672E2D08AA6A00AB76FB /* Build configuration list for PBXNativeTarget "TaleGenie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EB672F2D08AA6A00AB76FB /* Debug */,
+				11EB67302D08AA6A00AB76FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EB67312D08AA6A00AB76FB /* Build configuration list for PBXNativeTarget "TaleGenieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EB67322D08AA6A00AB76FB /* Debug */,
+				11EB67332D08AA6A00AB76FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EB67342D08AA6A00AB76FB /* Build configuration list for PBXNativeTarget "TaleGenieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EB67352D08AA6A00AB76FB /* Debug */,
+				11EB67362D08AA6A00AB76FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11EB67022D08AA6800AB76FB /* Project object */;
+}
